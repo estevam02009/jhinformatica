@@ -1,0 +1,17 @@
+import PromoBar from "./components/PromoBar"
+function App() {
+
+  return (
+    <div className="min-h-screen bg-gray-800">
+      <PromoBar />
+      <main className="container mx-auto flex items-center justify-center">
+        <h1 className="text-white text-4xl font-bold">
+          Landing Page em construção
+        </h1>
+      </main>
+    </div>
+  )
+  
+}
+
+export default App
