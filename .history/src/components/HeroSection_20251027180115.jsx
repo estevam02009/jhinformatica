@@ -25,13 +25,11 @@ const HeroSection = () => {
                     <p className='text-sm font-medium text-violet-200 uppercase'>
                         vitalício - pague uma vez só
                     </p>
+
+                    <a href="#" className='inline-block bg-green-500 hover:bg-green-400 text-white font-bold py-4 px-10 rounded-lg shadow-xl uppercase text-xl -tracking-wider transition duration-300 transform hover:scale-105 animate-bounce'>
+                        comprar agora - R$ 12,99
+                    </a>
                 </div>
-                <a href="#" className='inline-block bg-green-500 hover:bg-green-400 text-white font-bold py-4 px-10 rounded-lg shadow-xl uppercase text-xl -tracking-wider transition duration-300 transform hover:scale-105 animate-bounce'>
-                    comprar agora - R$ 12,99
-                </a>
-                <p className='text-xs text-sm text-violet-300 mb-8 mt-2'>
-                    Pagamento 100% seguro • Acesso imediato • Garantia de 7 dias
-                </p>
             </div>
         </section>
     );
