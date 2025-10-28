@@ -2,7 +2,6 @@ import PromoBar from "./components/PromoBar"
 import HeroSection from "./components/HeroSection"
 import KeyMetrics from "./components/KeyMetrics"
 import ValueProposition from './components/ValueProposition';
-import FeaturesSection from './components/FeaturesSection';
 function App() {
 
   return (
@@ -11,7 +10,6 @@ function App() {
       <HeroSection />
       <KeyMetrics />
       <ValueProposition />
-      <FeaturesSection />
     </div>
   )
   
