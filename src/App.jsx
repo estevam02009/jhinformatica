@@ -17,14 +17,14 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-800">
       <PromoBar />
-      <Header />
+      {/* <Header /> */}
       <HeroSection />
       <KeyMetrics />
       <ValueProposition />
       <FeaturesSection />
       <FinalCTA />
       <IncludedPrograms />
-      {/* <Footer /> */}
+      <Footer />
 
       <WhatsAppFAB phoneNumber={numeroWhatsapp} message={mensagemPadrao} />
     </div>
