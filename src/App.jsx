@@ -1,5 +1,5 @@
 import PromoBar from "./components/PromoBar"
-import Header from './components/Header';
+// import Header from './components/Header';
 import HeroSection from "./components/HeroSection"
 import KeyMetrics from "./components/KeyMetrics"
 import ValueProposition from './components/ValueProposition';
@@ -24,7 +24,7 @@ function App() {
       <FeaturesSection />
       <FinalCTA />
       <IncludedPrograms />
-      <Footer />
+      {/* <Footer /> */}
 
       <WhatsAppFAB phoneNumber={numeroWhatsapp} message={mensagemPadrao} />
     </div>
